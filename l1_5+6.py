@@ -1,6 +1,6 @@
-p = int(input("Type your proceeds(in$): "))
-c = int(input("Type your costs(in$): "))
-e = int(input("How many employers do you have?: "))
+p = float(input("Type your proceeds(in$): "))
+c = float(input("Type your costs(in$): "))
+e = float(input("How many employers do you have?: "))
 if p > c:
     print("Your company profitable")
     profit = p-c
